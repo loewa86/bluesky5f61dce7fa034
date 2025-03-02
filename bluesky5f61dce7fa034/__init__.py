@@ -32,7 +32,7 @@ logging.getLogger("aiohttp.access").setLevel(logging.WARNING)
 
 
 DEFAULT_OLDNESS_SECONDS = 360
-DEFAULT_MAXIMUM_ITEMS = 1000  # Увеличено
+DEFAULT_MAXIMUM_ITEMS = 100  # Увеличено
 DEFAULT_MIN_POST_LENGTH = 5
 DEFAULT_SKIP_PROBABILITY = 0.0
 
